@@ -1,0 +1,115 @@
+.Cuerpo{
+    left: 600px;
+    top: 300px;
+    width: 50px;
+    height: 100px;
+    border-radius: 30%;
+    position: absolute;
+    color: red;
+    box-shadow: 200px 200px 0 0 red ,
+    200px 170px 0 -15px bisque;
+    }
+    .Cuerpo::before {
+    content:"";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    color: red;
+    box-shadow: 175px 140px 0 0 bisque,
+    175px 120px 0 -5px orange;
+    }
+    .Cuerpo::after{
+    content:"";
+    position: absolute;
+    width: 70px;
+    height: 20px;
+    border-radius: 100%;
+    color: red;
+    box-shadow: 175px 140px 0 0 orange;
+    }
+    .BraPi{
+    left: 600px;
+    top: 300px;
+    width: 16px;
+    height: 90px;
+    border-radius: 30%;
+    position: absolute;
+    color: red;
+    box-shadow: 205px 295px 0 1px blue,
+    227px 295px 0 1px blue;
+    }
+    .BraPi::before{
+    content: "";
+    position: absolute;
+    width: 18px;
+    height: 70px;
+    border-radius: 40%;
+    color: red;
+    box-shadow: 190px 370px 0 0 red;
+    transform: rotate(-45deg);
+    transform-origin: right 255px;
+    }
+    .BraPi::after{
+    content: "";
+    position: absolute;
+    width: 18px;
+    height: 70px;
+    border-radius: 40%;
+    color: red;
+    box-shadow: 250px 10px 0 0 red;
+    transform: rotate(+45deg) ;
+    transform-origin: left 50px;
+    }
+    .PiMa{
+    width: 20px;
+    height: 20px;
+    border-radius: 40%;
+    position: absolute;
+    color: red;
+    box-shadow: 150px 245px 0 0 bisque ,
+    280px 245px 0 0px bisque;
+    }
+    .PiMa::before{
+    content: "";
+    width: 25px;
+    height: 15px;
+    border-radius: 40%;
+    position: absolute;
+    color: red;
+    box-shadow: 195px 380px 0 0 darkred,
+    227px 380px 0 0px darkred;
+    }
+    .Hoz{
+    left: 0px;
+    top: 300px;
+    position: absolute;
+    left: 20px;
+    width: 2px;
+    height: 180px;
+    border-radius: 40%;
+    color: red;
+    box-shadow: 155px 215px 0 0 silver;
+    }
+    .Hoz::before{
+    content: "";
+    position: absolute;
+    left: 00px;
+    width: 42px;
+    height: 2px;
+    border-radius: 40%;
+    color: red;
+    box-shadow: 135px 215px 0 0 silver;
+    }
+    .Hoz::after{
+    content: "";
+    position: absolute;
+    left: 00px;
+    width: 2px;
+    height: 30px;
+    border-radius: 40%;
+    color: red;
+    box-shadow: 135px 185px 0 0 silver,
+    155px 185px 0 0 silver,
+    175px 185px 0 0 silver;
+    }

@@ -1,0 +1,79 @@
+.verde {
+    width: 45px;
+    height: 80px;
+    left: 800px;
+    top: 0px;
+    border-radius:  100%;
+    position: absolute ;
+    color: rgb(51, 179, 104);
+    box-shadow:
+        238px 500px 0 0 currentColor,
+        295px 550px 0 0 currentColor;
+    }
+    .verde::before {
+        content: "";
+        position:absolute ;
+        color: rgb(230, 147, 80);
+        left: 388px;
+        top: -450px;
+        width: 100px;
+        height: 80px;
+        border-bottom: solid 12px currentColor;
+        border-radius: 0 0 0 30%;
+        transform: rotate(-89deg);
+        transform-origin: right 300px;
+       
+       
+    }
+    .verde::after {
+        content: "";
+        position: absolute;
+        color: rgb(230, 147, 80);
+        left: 128px;
+        top: -430px;
+        width: 100px;
+        height: 100px;
+        border-bottom: solid 12px currentColor;
+        border-radius: 0 0 30% 0;
+        transform: rotate(92deg);
+        transform-origin: left 300px;
+    }
+    .tronco::after{
+        content: "";
+        position:absolute ;
+        color: rgb(230, 147, 80);
+        left: 1216px;
+        top: 300px;
+        width: 100px;
+        height: 100px;
+        border-bottom: solid 12px currentColor;
+        border-radius: 0 0 0 30%;
+        transform: rotate(-89deg);
+        transform-origin: right 300px;
+       
+    }
+    .tronco::before{
+        content: "";
+        position: absolute;
+        color: rgb(230, 147, 80);
+        left: 830px;
+        top: 265px;
+        width: 100px;
+        height: 50px;
+        border-bottom: solid 12px currentColor;
+        border-radius: 0 0 45% 0;
+        transform: rotate(92deg);
+        transform-origin: left 300px;
+    }
+    .verd {
+        width: 45px;
+        height: 80px;
+        left: 800px;
+        top: 0;
+        border-radius:  100%;
+        position: absolute ;
+        color: rgb(51, 179, 104);
+        box-shadow:
+            262px 500px 0 0 currentColor,
+            315px 550px 0 0 currentColor;
+        }

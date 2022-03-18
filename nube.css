@@ -1,0 +1,43 @@
+.nube{
+
+    width: 150px;
+
+    height: 50px;
+
+    background-image: url(nubes.png);
+
+    background-size: 100% 100%;
+
+    position: absolute;
+
+    animation: movimiento1 10s infinite;
+}
+
+@keyframes movimiento1{
+
+    from{ margin-left: 100%;}
+
+    to {margin-left: -30%;}
+
+}
+
+.nube:nth-child(1){
+
+    margin-top: 50px;
+
+    background-image: url(nubes.png);
+
+    animation: movimiento1 15s infinite;
+
+}
+
+
+.nube:nth-child(2) {
+
+    margin-top: 60px;
+
+    background-image: url(nubes.png);
+
+    animation: movimiento1 7s infinite;
+
+}
